@@ -9,10 +9,13 @@
     .container {
       color: white;
       border: 5px solid gold;
+
       display: inline-flex;
       flex-direction: column;
     }
 
+
+    /* It adds 100px below each row; flex-basis is used on child whereas the display is applied on parent */
     .container > * {
       flex-basis: 100px;
     }
